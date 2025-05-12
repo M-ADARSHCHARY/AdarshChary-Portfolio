@@ -24,7 +24,6 @@ function App() {
           <Projects/>
           <div className="h-[2px] w-full bg-[#575353]"></div>
           <Contact/>
-          <div className="h-[2px] w-full bg-[#575353]"></div>
           <Footer/>
       </div>  
     </>
