@@ -18,9 +18,13 @@ function App() {
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <Home/>
+          <div className="h-[2px] w-full bg-[#575353]"></div>
           <About/>
+          <div className="h-[2px] w-full bg-[#575353]"></div>
           <Projects/>
+          <div className="h-[2px] w-full bg-[#575353]"></div>
           <Contact/>
+          <div className="h-[2px] w-full bg-[#575353]"></div>
           <Footer/>
       </div>  
     </>

@@ -8,7 +8,7 @@ const MobileMenu = ({menuOpen,setMenuOpen}) => {
        
        <button onClick={()=> setMenuOpen(false) } className="absolute top-6 right-6 text-white text-3xl cursor-pointer ">&times;</button>
 
-       <div className="flex flex-col justify-center items-center space-y-8  bg-gradient-to-br-900 h-[90%] w-full">
+       <div className="flex flex-col justify-center items-center space-y-8  h-[90%] w-full">
                   <a onClick={()=>setMenuOpen(false)} href="#home" className={`text-gray-400 text-2xl font-bold transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0":"opacity-0 translate-y-5"} cursor-pointer`}>Home</a>
                   <a onClick={()=>setMenuOpen(false)} href="#About" className={`text-gray-400 text-2xl font-bold transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0":"opacity-0 translate-y-5"} cursor-pointer`}>About</a>
                   <a onClick={()=>setMenuOpen(false)} href="#Projects" className={`text-gray-400 text-2xl font-bold transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0":"opacity-0 translate-y-5"} cursor-pointer`}>Projects</a>

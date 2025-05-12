@@ -8,10 +8,10 @@ const Navbar = ({menuOpen,setMenuOpen}) => {
   }, [menuOpen])
 
   return (
-    <nav className="fixed top-0 w-full  z-40 bg-[#040D12] backdrop-blur-lg border-b border-white/30 shadow-lg">
+    <nav className="fixed top-0 w-full  z-40 bg-[#222222] backdrop-blur-lg shadow-lg">
        <div className="max-w-5xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
-          <div className="cursor-pointer rounded-full h-13 w-13 flex justify-center items-center  border-2 border-blue-950 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"><span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">Mac</span></div>
+          <div className="cursor-pointer rounded-full h-13 w-13 flex justify-center items-center  border-2 border-black hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"><span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">Mac</span></div>
                  
                 <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={()=> {setMenuOpen((prev)=>!prev)}}>
                   &#9776;

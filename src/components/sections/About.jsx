@@ -5,7 +5,7 @@ const frontEndSkills = ["HTML","TailwindCSS","ReactJS","JS"]
 const backEndSkills = ["Node.JS","Express.JS","REST API'S","JWT","MongoDB","SQL"]
 
   return (
-    <section id="About" className="min-h-screen flex items-center justify-center py-20">
+    <section id="About" className="min-h-[75vh] flex items-center justify-center py-20 font-sans">
         <div className="max-w-3xl mx-auto px-4  p-4 rounded-lg shadow-lg ">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
                 About me
@@ -39,14 +39,14 @@ const backEndSkills = ["Node.JS","Express.JS","REST API'S","JWT","MongoDB","SQL"
               </div>
             </div>
 
-            <div className="mt-8 hover:translate-y-1 p-6 border-white/10 ">
-                    <h3 className="text-xl font-bold mb-4">Education</h3>
+            <div className="mt-6 hover:translate-y-1 p-6 border-white/10 ">
+                <h3 className="text-xl font-bold mb-4">Education</h3>
                     <ul className="list-disc text-gray-300 space-y-2">
                         <li>
                             <strong>B.Tech in Computer science & engineering</strong> - CMR TECHNICAL CAMPUS (2023 - 2027)
                         </li>
                         <li>
-                            Relavant Coursework : Data Structures , web development , DBMS , Oops Through Java
+                            Relevant Coursework : Data Structures , web development , DBMS , Oops Through Java
                         </li>
                     </ul>        
             </div>

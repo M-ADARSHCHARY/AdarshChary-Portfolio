@@ -10,14 +10,14 @@ const Contact = () => {
            e.preventDefault();
            let result= await emailjs.sendForm(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_ID,e.target,import.meta.env.VITE_API_KEY)
            alert("Message sent");
-           setFormData({name:"",email:"",message:""})
+           setFormData({name:"",email:"",message:""}) // clear state
         }catch(err){
             console.log(err)
             alert("Something went wrong,Please try again..!");
         }
   }  
   return (
-    <section id="Contact"className="min-h-screen flex items-center justify-center py-20">
+    <section id="Contact"className="min-h-[70vh] flex items-center justify-center py-20 font-sans">
         <div className="px-4 w-150">
               <h2  className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
                 Get In Touch
@@ -41,7 +41,7 @@ const Contact = () => {
                         onChange={(e)=>setFormData({...formData,message:e.target.value})}
                         />
                      </div>
-                     <button className="relative left-5 w-[90%] rounded-lg bg-blue-600 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Submit</button>
+                     <button className="left-5 w-[90%] rounded-lg bg-blue-600 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">Submit</button>
               </form>
         </div>
     </section>
