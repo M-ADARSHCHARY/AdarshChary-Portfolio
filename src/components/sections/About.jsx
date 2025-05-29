@@ -1,7 +1,7 @@
 import React from 'react'
 
 const About = () => {
-const frontEndSkills = ["HTML","TailwindCSS","ReactJs","Js"]
+const frontEndSkills = ["HTML","TailwindCSS","JavaScript","React.Js","Redux","Zustand"]
 const backEndSkills = ["Node.Js","Express.Js","REST API'S","JWT","MongoDB","SQL"]
 
   return (
