@@ -25,13 +25,13 @@ const Contact = () => {
               <form action="" className="space-y-3"onSubmit={emailSubmit}>
                      <div className="relative">
                         <input type="text" id="name" name="name" value={formData.name} required className="w-full bg-white/5 border border-blue-600 hover:border-blue-900 px-4 py-3 rounded-lg"
-                        placeholder="Name.."
+                        placeholder="Your Name.."
                         onChange={(e)=>setFormData({...formData,name:e.target.value})}
                         />
                      </div>
                      <div className="relative">
                         <input type="email" id="email" name="email" value = {formData.email}required className="w-full bg-white/5 border border-blue-600 hover:border-blue-900 px-4 py-3 rounded-lg"
-                        placeholder="email@gmail.com"
+                        placeholder="example@gmail.com"
                         onChange={(e)=>setFormData({...formData,email:e.target.value})}
                         />
                      </div>
