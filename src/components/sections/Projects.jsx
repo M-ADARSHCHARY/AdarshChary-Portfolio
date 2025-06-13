@@ -19,7 +19,7 @@ const Projects = () => {
                     <h4 className="mt-3 text-gray-300 font-semi-bold text-2xl">Technologies Used:</h4>
                     <div className="grid md:grid-cols-3 gap-2 grid-cols-2 mt-2 mb-4">
                         {
-                            ["HTML","TailwindCSS","Express.Js","SQL","Node.Js","REST API'S"].map((skill,key)=>(
+                            ["HTML","TailwindCSS","React.js","Redux","Express.Js","SQL","Node.Js","REST API'S"].map((skill,key)=>(
                                 <span key={key} className="text-blue-500 bg-blue-500/10 py-1 px-3 rounded-lg">
                                               {skill}
                                 </span>
