@@ -52,7 +52,7 @@ const Projects = () => {
                     </div>
                     <div className="text-sm text-gray-400 hover:text-gray-300 items-center flex flex-col absolute right-2 bottom-2">
                      <a className="text-blue-900 hover:text-blue-700 flex gap-2 justify-end items-center"href="https://github.com/M-ADARSHCHARY/HelloW-Chat-App"><Link className="w-4 h-4"/>Explore the project on GitHub</a>
-                     <a className="flex gap-2 items-center ml-15"href="https://hello-w-chat-app.vercel.app/"><Eye className="w-5 h-5 text-gray-400" />View Project</a>
+                     <a className="flex gap-2 items-center ml-15"href="https://hello-w-chat-app.vercel.app/"><Eye className="w-4 h-4 text-gray-400" />View Project</a>
                     </div>
                  </div>   
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react'
 import {Home,User,Code,Mail} from 'lucide-react'
+import { Link } from 'react-scroll'
 const Navbar = ({menuOpen,setMenuOpen}) => {
    // disable scrolling
   useEffect(() => {
@@ -18,10 +19,10 @@ const Navbar = ({menuOpen,setMenuOpen}) => {
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">
-                  <a href="#home" className="text-gray-400 hover:border hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"><Home size={19} /> Home</a>
-                  <a href="#About" className="text-gray-400 hover:border hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"><User size={19} />About</a>
-                  <a href="#Projects" className="text-gray-400 hover:border hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"> <Code size={19} />Projects</a>
-                  <a href="#Contact" className="text-gray-400 hover:border hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"><Mail size={19} />Contact</a>
+                  <Link to ="home" smooth = {true} duration = {500} className="text-gray-400 hover:border cursor-pointer hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"><Home size={19} /> Home</Link>
+                  <Link to="About" smooth = {true} duration = {500} className="text-gray-400 hover:border cursor-pointer hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"><User size={19} />About</Link>
+                  <Link to="Projects"smooth = {true} duration = {500} className="text-gray-400 hover:border cursor-pointer hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"> <Code size={19} />Projects</Link>
+                  <Link to="Contact" smooth = {true} duration = {500} className="text-gray-400 hover:border cursor-pointer hover:border-blue-900 px-3 py-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] rounded-lg flex gap-1 items-center"><Mail size={19} />Contact</Link>
                 </div>
 
           </div>

@@ -43,7 +43,8 @@ const backEndSkills = ["Node.Js","Express.Js","REST API'S","JWT","MongoDB","SQL"
                 <h3 className="text-xl font-bold mb-4 text-gray-400">Education</h3>
                     <ul className="list-disc text-gray-400 space-y-2">
                         <li>
-                            <strong>B.Tech in Computer Science & Engineering</strong> - CMR TECHNICAL CAMPUS (2023 - 2027)
+                            <strong>B.Tech in Computer Science & Engineering</strong> - CMR TECHNICAL CAMPUS (2023 - 2027)   
+                            <div>CGPA : <strong>9.47</strong></div>
                         </li>
                         <li>
                             Relevant Coursework : Data Structures , web development ,Operating Systems, DBMS , Oops Through Java
