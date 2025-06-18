@@ -2,16 +2,20 @@ import React from 'react'
 import emailjs from 'emailjs-com'
 import {useState} from 'react'
 import toast from 'react-hot-toast'
+import { Loader2 } from 'lucide-react'
 const Contact = () => {
    const [formData,setFormData] = useState({name:"",email:"",message:""})
-
+   const [loadingState,setLoadingState] = useState(false);
   
   const emailSubmit = async (e)=>{
        try{
            e.preventDefault();
+           setLoadingState(true);
            let result= await emailjs.sendForm(import.meta.env.VITE_SERVICE_ID,import.meta.env.VITE_TEMPLATE_ID,e.target,import.meta.env.VITE_API_KEY)
            toast.success("Email sent successfully!")
+           setLoadingState(false);
            setFormData({name:"",email:"",message:""}) // clear state
+
         }catch(err){
             console.log(err)
             toast.error("Failed to send email. Please try again later.")
@@ -42,7 +46,7 @@ const Contact = () => {
                         onChange={(e)=>setFormData({...formData,message:e.target.value})}
                         />
                      </div>
-                     <button className="text-gray-300 left-5 w-[90%] rounded-lg bg-blue-900 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer">Submit</button>
+                     <button className="text-gray-300 left-5 w-[90%] rounded-lg bg-blue-900 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer flex justify-center items-center">{loadingState ? <Loader2 className="animate-spin w-4 h-4" /> :"Submit"}</button>
               </form>
         </div>
     </section>
