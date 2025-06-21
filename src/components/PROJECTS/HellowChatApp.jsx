@@ -3,7 +3,7 @@ import {Link , Eye,ExternalLink} from 'lucide-react'
 import hellowChatAppImg from '../../assets/hellow-chatapp.png'
 const HellowChatApp = () => {
   return (
-    <div className="relative p-6 rounded-xl border border-blue-900  hover:translate-y-1 hover:border-blue-500/30">
+    <div className="relative p-6 rounded-xl border border-blue-900  hover:translate-y-1 hover:border-blue-500/30 ">
                     <h3 className="font-sans text-gray-350 font-bold mb-0.2 bg-blue-900 inline-block p-2 rounded-md mb-1">HelloW-ChatApp</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center">
                <div className="border-2 p-2 rounded-md border-white/10 relative hover:scale-102 transition-transform duration-300 ease-in-out">
