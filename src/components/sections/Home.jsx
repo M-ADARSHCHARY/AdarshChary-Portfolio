@@ -39,7 +39,7 @@ I enjoy solving challenges through code - whether it's designing sleek interface
 This space is a reflection of my journey as a developer who believes in continuous learning and clean architecture.
             </p> 
             <>
-            <button className="bg-blue-600 h-fit w-fit p-2 rounded-md mt-2 cursor-pointer flex mx-auto gap-2 items-center" onClick={handleResumeDownload}>GET RESUME <Download size={20} strokeWidth={2} color="currentColor" /></button>
+            <button className="bg-blue-600 h-fit w-fit p-2 rounded-md mt-4 cursor-pointer flex mx-auto gap-2 items-center text-sm" onClick={handleResumeDownload}>GET RESUME <Download size={20} strokeWidth={2} color="currentColor" /></button>
             <a href={resume} ref={linkRef} className="display-none"download="my-resume.pdf"></a>
             </>
 

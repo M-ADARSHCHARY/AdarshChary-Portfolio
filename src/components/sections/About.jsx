@@ -1,8 +1,8 @@
 import React from 'react'
 
 const About = () => {
-const frontEndSkills = ["HTML","TailwindCSS","JavaScript","React.Js","Redux","Zustand"]
-const backEndSkills = ["Node.Js","Express.Js","REST API'S","JWT","MongoDB","SQL"]
+const frontEndSkills = ["HTML","TailwindCSS","JavaScript","React.js","Redux","Zustand"]
+const backEndSkills = ["Node.js","Express.js","REST API'S","JWT","MongoDB","SQL"]
 
   return (
     <section id="About" className="min-h-[75vh] flex items-center justify-center py-20 font-sans">

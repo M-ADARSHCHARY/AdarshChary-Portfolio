@@ -46,7 +46,7 @@ const Contact = () => {
                         onChange={(e)=>setFormData({...formData,message:e.target.value})}
                         />
                      </div>
-                     <button className="text-gray-300 left-5 w-[90%] rounded-lg bg-blue-900 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer flex justify-center items-center">{loadingState ? <Loader2 className="animate-spin w-4 h-4" /> :"Submit"}</button>
+                     <button className="text-gray-300  w-full rounded-lg bg-blue-900 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer flex justify-center items-center">{loadingState ? <Loader2 className="animate-spin w-4 h-4" /> :"Submit"}</button>
               </form>
         </div>
     </section>
