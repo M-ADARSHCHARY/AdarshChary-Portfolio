@@ -1,6 +1,6 @@
 import React ,{useRef}from 'react'
 import { useEffect ,useState} from 'react'
-import resume from '../../assets/my-resume.pdf';
+import resume from '../../assets/AdarshChary-resume.pdf';
 import myImage from '../../assets/myimage.jpg';
 import { Link } from 'react-scroll';
 import { Download } from 'lucide-react';
@@ -40,7 +40,7 @@ This space is a reflection of my journey as a developer who believes in continuo
             </p> 
             <>
             <button className="bg-blue-600 h-fit w-fit p-2 rounded-md mt-4 cursor-pointer flex mx-auto gap-2 items-center text-sm" onClick={handleResumeDownload}>GET RESUME <Download size={20} strokeWidth={2} color="currentColor" /></button>
-            <a href={resume} ref={linkRef} className="display-none"download="my-resume.pdf"></a>
+            <a href={resume} ref={linkRef} className="display-none"download="AdarshChary-resume.pdf"></a>
             </>
 
          </div>
