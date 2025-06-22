@@ -51,9 +51,9 @@ const Home = () => {
             <a href={resume} ref={linkRef} className="display-none"download="AdarshChary-resume.pdf"></a>
             </>
       </div>
-         <div className="mt-4 flex flex-col justify-center items-center">
+         <div className="mt-2 flex flex-col justify-center items-center">
             <div className="w-fit"> 
-              <div className="h-40 w-40 sm:h-48 sm:w-48 md:h-56 md:w-56 lg:h-64 lg:w-64 rounded-full m-auto"><img src={myImage} className="h-full w-full rounded-full border-3 object-cover" alt="myImg"/></div>
+              <div className="h-45 w-45 sm:h-48 sm:w-48 md:h-56 md:w-56 lg:h-64 lg:w-64 rounded-full mx-auto my-1"><img src={myImage} className="h-full w-full rounded-full border-3 object-cover" alt="myImg"/></div>
               <div className="mt-4 flex justify-center space-x-4 mb-4">
                     <Link to="Projects" smooth = {true} duration = {500} className="cursor-pointer rounded-lg bg-blue-600 mt-2 p-1.5 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]">
                       View Projects
