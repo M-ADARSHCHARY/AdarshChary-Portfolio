@@ -12,9 +12,9 @@ const backEndSkills = ["Node.js","Express.js","REST API'S","JWT","MongoDB","SQL"
             </h2>
             <div className="rounded-xl border-white/10 hover:translate-y-1 animate-fadeIn transition-all duration-500 ease-out">
                <p className="text-gray-200 mb-1 text-justify">
-               I’m a passionate web developer with a strong interest in building dynamic, responsive,
-               and user-centric web applications. I have hands-on experience with technologies like React, Node.js, and MongoDB, and 
-               I enjoy crafting solutions that are both functional and intuitive.
+                I’m a passionate web developer with a strong interest in building dynamic, responsive,
+                and user-centric web applications. I have hands-on experience with technologies like React, Node.js, and MongoDB, and 
+                I enjoy crafting solutions that are both functional and intuitive.
                 My focus is on developing clean, efficient code and delivering smooth user experiences.
                 Currently, I’m expanding my problem-solving skills by learning Data Structures in Java.
               </p> 
@@ -37,7 +37,7 @@ const backEndSkills = ["Node.js","Express.js","REST API'S","JWT","MongoDB","SQL"
                          </div>
                     </div>
               </div>
-            </div>
+           </div>
 
             <div className="mt-6 hover:translate-y-1  border-white/10  grid md:grid-cols-2 lg:grid-cols-2 sm: grid-cols-1 gap-2 ">
                 <div className="border-1 border-blue-900  hover:border-blue-500/30 rounded-md h-fit-content p-2 hover:scale-102 transition-transform duration-300 ease-in-out ">
