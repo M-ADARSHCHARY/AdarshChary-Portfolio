@@ -34,11 +34,7 @@ const HellowChatApp = () => {
 
               <div className="rounded-md overflow-hidden border-2 border-white/10 p-1 hover:scale-102 transition-transform duration-300 ease-in-out">
                    <img src= {hellowChatAppImg} alt="netflix-clone" className="h-full w-full rounded-md object-cover"/> 
-              </div>
-              
-             
-                    
-              
+              </div>      
         </div>    
                     
      </div>
