@@ -22,7 +22,7 @@ const projectsInfo =  [
       description:"A platform connecting blood donors with those in need, facilitating quick and efficient blood donation requests. Built with React and Node.js, it ensures secure user authentication and real-time updates.",
       techStack:["React", "Redux", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"],
       liveDemo:"",
-      githubRepo:"https://github.com/M-ADARSHCHARY/UberForBlood-Team-Project",
+      githubRepo:"https://github.com/M-ADARSHCHARY/UberForBlood-TeamProject",
       category: "Team Project",
       imageUrl:"/images/uberForBlood.png"
    }
