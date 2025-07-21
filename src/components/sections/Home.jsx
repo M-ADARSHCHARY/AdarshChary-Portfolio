@@ -3,7 +3,7 @@ import { Download, Github, Linkedin, Mail, ExternalLink, Code2, Sparkles } from 
 import resume from '../../assets/AdarshChary-resume.pdf';
 import myImage from '../../assets/myimage.jpg';
 
-const Home = () => {
+const Home = ({loadState}) => {
   const linkRef = useRef(null)
   const [name, setName] = useState("")
   const [showCursor, setShowCursor] = useState(true)
@@ -29,10 +29,10 @@ const Home = () => {
           setShowCursor(prev => !prev)
         }, 500)
       }
-    }, 350) // Faster typing speed
+    }, 150) // Faster typing speed
     
     return () => clearInterval(interval)
-  }, [])
+  }, [loadState])
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)

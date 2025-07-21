@@ -19,7 +19,7 @@ function App() {
       <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? 'opacity-100' : 'opacity-0'} bg-[#E8F9FF] text-black dark:bg-black dark:text-white`}>
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-          <Home/>
+          <Home loadState = {isLoaded}/>
           <div className="h-[2px] w-full bg-[#575353]"></div>
           <About/>
           <div className="h-[2px] w-full bg-[#575353]"></div>
