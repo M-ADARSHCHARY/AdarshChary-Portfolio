@@ -22,31 +22,31 @@ const Contact = () => {
         }
   }  
   return (
-    <section id="Contact"className="min-h-[70vh] flex items-center justify-center py-20 font-sans">
-        <div className="px-4 w-150">
-              <h2  className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
+    <section id="Contact"className="min-h-[70vh] flex items-center justify-center py-20 font-sans ">
+        <div className="px-4 md:px-10  w-[80vw] md:w-[60vw]  ">
+              <h2  className="text-center text-3xl font-bold mb-8  text-black dark:bg-gradient-to-r dark:from-blue-500 dark:to-purple-600 dark:bg-clip-text dark:text-transparent">
                 Get In Touch
              </h2>
               <form action="" className="space-y-3"onSubmit={emailSubmit}>
                      <div className="relative">
-                        <input type="text" id="name" name="name" value={formData.name} required className="w-full bg-white/5 border border-blue-600 hover:border-blue-900 px-4 py-3 rounded-lg"
+                        <input type="text" id="name" name="name" value={formData.name} required className="w-full bg-white/5 border border-black dark:border-blue-600 dark:hover:border-blue-900 px-4 py-3 rounded-lg"
                         placeholder="Your Name.."
                         onChange={(e)=>setFormData({...formData,name:e.target.value})}
                         />
                      </div>
                      <div className="relative">
-                        <input type="email" id="email" name="email" value = {formData.email}required className="w-full bg-white/5 border border-blue-600 hover:border-blue-900 px-4 py-3 rounded-lg"
+                        <input type="email" id="email" name="email" value = {formData.email}required className="w-full bg-white/5 border border-black dark:border-blue-600 dark:hover:border-blue-900 px-4 py-3 rounded-lg"
                         placeholder="example@gmail.com"
                         onChange={(e)=>setFormData({...formData,email:e.target.value})}
                         />
                      </div>
                      <div className="relative">
-                        <textarea  id="message" name="message" rows={5} value={formData.message}required className="w-full bg-white/5 border border-blue-600 hover:border-blue-900 px-4 py-3 rounded-lg"
+                        <textarea  id="message" name="message" rows={5} value={formData.message}required className="w-full bg-white/5 border border-black dark:border-blue-600 hover:border-blue-900 px-4 py-3 rounded-lg"
                         placeholder="Enter your Message here..."
                         onChange={(e)=>setFormData({...formData,message:e.target.value})}
                         />
                      </div>
-                     <button className="text-gray-300  w-full rounded-lg bg-blue-900 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer flex justify-center items-center">{loadingState ? <Loader2 className="animate-spin w-4 h-4" /> :"Submit"}</button>
+                     <button className="text-gray-300  w-full rounded-lg bg-black  dark:bg-blue-900 mt-2 p-2 relative overflow-hidden hover:bg-blue-900 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer flex justify-center items-center">{loadingState ? <Loader2 className="animate-spin w-4 h-4" /> :"Submit"}</button>
               </form>
         </div>
     </section>
