@@ -15,7 +15,7 @@ const Navbar = ({menuOpen,setMenuOpen}) => {
     <nav className="fixed top-0 w-full  z-40   bg-[#09122C] backdrop-blur-sm shadow-lg dark:bg-black/90 dark:text-white border-b-2 dark:border-white/30">
        <div className="max-w-5xl mx-auto px-4">
           <div className="flex justify-between items-center h-16">
-          <Link to = "home"  smooth={true} duration={500} className="flex justify-center cursor-pointer">{name[0]}.{name[1]}</Link>
+          <Link to = "home"  smooth={true} duration={500} className="flex justify-center cursor-pointer text-white">{name[0]}.{name[1]}</Link>
                  
                 <div className="dark:text-white w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={()=> {setMenuOpen((prev)=>!prev)}}>
                   <Menu className="w-6 h-6 text-white" />

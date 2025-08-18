@@ -8,7 +8,7 @@ const Footer = () => {
              <a className= "flex gap-1 items-center justify-center" href="https://github.com/M-ADARSHCHARY"><Github className="w-6 h-6 text-gray-400 hover:text-blue-900" /> <span className="pt-1 ">Github</span></a>
              <a className="flex gap-1 items-center justify-center"href="https://linkedin.com/in/M-Adarsh-Chary"><Linkedin className="w-6 h-6 text-gray-400 hover:text-blue-900" /> <span className="pt-1.5 ml-1">LinkedIn</span></a>
           </div>
-          <div className="font-sans">
+          <div>
              © {new Date().getFullYear()} M.AdarshChary. All rights reserved.
           </div>
        </div>
