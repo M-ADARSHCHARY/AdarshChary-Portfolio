@@ -49,7 +49,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="order-2 lg:order-1 ">
             <div 
-              className="backdrop-blur-sm rounded-2xl p-8 border-2  border-black dark:border-blue-400 shadow-2xl"
+              className="backdrop-blur-sm rounded-2xl p-8 border-2  border-black dark:border-white shadow-2xl"
             >
               <form onSubmit={emailSubmit} className="space-y-6 ">
                 {/* Name Input */}
@@ -63,7 +63,7 @@ const Contact = () => {
                     name="name" 
                     value={formData.name} 
                     required 
-                    className="bg-transparent w-full pl-12 pr-4 py-4 rounded-xl border-2 border-black dark:border-blue-400 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500"
+                    className="bg-transparent w-full pl-12 pr-4 py-4 rounded-xl border-2 border-black dark:border-white transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500"
                     placeholder="Your Name"
                     onChange={(e)=>setFormData({...formData,name:e.target.value})}
                   />
@@ -80,7 +80,7 @@ const Contact = () => {
                     name="email" 
                     value={formData.email}
                     required 
-                    className="bg-transparent w-full pl-12 pr-4 py-4 border-2 border-black dark:border-blue-400 rounded-xl  transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500"
+                    className="bg-transparent w-full pl-12 pr-4 py-4 border-2 border-black dark:border-white rounded-xl  transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500"
                     placeholder="your.email@example.com"
                     onChange={(e)=>setFormData({...formData,email:e.target.value})}
                   />
@@ -97,7 +97,7 @@ const Contact = () => {
                     rows={6} 
                     value={formData.message}
                     required 
-                    className="bg-transparent w-full pl-12 pr-4 py-4 rounded-xl border-2 border-black dark:border-blue-400 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 resize-none"
+                    className="bg-transparent w-full pl-12 pr-4 py-4 rounded-xl border-2 border-black dark:border-white transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 resize-none"
                     
                     placeholder="Tell me about your project or just say hello..."
                     onChange={(e)=>setFormData({...formData,message:e.target.value})}
@@ -159,12 +159,12 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* GitHub Card */}
+              {/* Leetcode Card */}
               <a 
                 href="https://leetcode.com/u/M_ADARSH/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block p-6 rounded-xl border border-black dark:border-white/70 transition-all duration-300 hover:scale-105"
+                className="block p-6 rounded-xl border border-black dark:border-white transition-all duration-300 hover:scale-105"
               >
                 <div className="flex items-center gap-4">
                   <div className="p-3 bg-gradient-to-r from-gray-700 to-gray-900 rounded-xl">
