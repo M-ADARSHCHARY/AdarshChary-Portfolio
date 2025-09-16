@@ -18,13 +18,13 @@ const projectsInfo =  [
         imageUrl:"/images/workoutTracker.png"
    },
    {
-      title:"UberForBlood",
+      title:"RakthSetu",
       description:"A platform connecting blood donors with those in need, facilitating quick and efficient blood donation requests. Built with React and Node.js, it ensures secure user authentication and real-time updates.",
       techStack:["React", "Redux", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"],
-      liveDemo:"http://uber-for-blood.vercel.app",
-      githubRepo:"https://github.com/M-ADARSHCHARY/UberForBlood-TeamProject",
+      liveDemo:"https://rakthsetu-v1.vercel.app",
+      githubRepo:"https://github.com/M-ADARSHCHARY/UberForBlood",
       category: "Team Project",
-      imageUrl:"/images/uberForBlood.png"
+      imageUrl:"/images/rakthsetu.jpg"
    }
 ]
 

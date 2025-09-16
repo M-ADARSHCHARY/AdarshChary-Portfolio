@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import { Download, Github, Linkedin, Mail, ExternalLink, Code2, Sparkles } from 'lucide-react'
-import resume from '../../assets/AdarshChary-resume.pdf';
 import myImage from '../../assets/myImage.jpg';
+import resume from '../../assets/AdarshChary-Resume.pdf';
 
 const Home = ({loadState}) => {
   const linkRef = useRef(null)
