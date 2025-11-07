@@ -52,7 +52,7 @@ const About = () => {
                     <div className="text-slate-400 text-sm">CMR Technical Campus, Hyderabad</div>
                     <div className="text-slate-400 text-sm">2023 - 2027</div>
                     <div className="inline-block bg-white/90 text-black/90 dark:bg-gradient-to-r dark:from-blue-500 dark:to-emerald-700  px-3 py-1 rounded-full text-xs font-semibold mt-2">
-                        CGPA: 9.47
+                        CGPA: 9.30
                     </div>
                     </div>
                 </div>

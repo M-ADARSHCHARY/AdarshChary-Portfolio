@@ -111,7 +111,7 @@ const Home = ({loadState}) => {
                 <Github size={24} />
               </a>
               <a 
-                href="https://linkedin.com/in/M-Adarsh-Chary" 
+                href="https://linkedin.com/in/m-adarsh-chary" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="p-3 hover:bg-black text-black hover:text-white dark:text-gray-400 dark:hover:text-white  dark:hover:bg-gray-800 rounded-lg"
@@ -119,6 +119,7 @@ const Home = ({loadState}) => {
               >
                 <Linkedin size={24} />
               </a>
+              
               <button 
                 onClick={() => scrollToSection('Contact')}
                 className="p-3 hover:bg-black text-black hover:text-white dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-800 rounded-lg"
@@ -126,6 +127,18 @@ const Home = ({loadState}) => {
               >
                 <Mail size={24} />
               </button>
+              {/* LeetCode Profile */}
+              <a 
+                href="https://leetcode.com/u/M_ADARSH/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="p-3 hover:bg-black text-black hover:text-white dark:text-gray-400 dark:hover:text-white  dark:hover:bg-gray-800 rounded-lg"
+                aria-label="LeetCode"
+              >
+                <div className="bg-gradient-to-r from-gray-700 to-gray-900 rounded-xl">
+                     <img src="https://leetcode.com/favicon.ico" alt="LeetCode" className="w-6 h-6" />
+                </div>
+              </a>
             </div>
           </div>
 
