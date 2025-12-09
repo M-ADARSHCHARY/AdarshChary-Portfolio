@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <section 
       id="Contact" 
-      className="min-h-screen flex items-center justify-center py-16 px-4 font-sans relative overflow-hidden"
+      className="min-h-[100svh] py-6 lg:min-h-screen flex items-center justify-center lg:py-16 px-4 font-sans relative overflow-hidden"
       style={{ backgroundColor: 'var(--bg-primary)' }}
     >
      
@@ -108,7 +108,7 @@ const Contact = () => {
                 <button 
                   type="submit"
                   disabled={loadingState}
-                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-blue-500/25 flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
+                  className="w-full bg-gradient-to-r bg-blue-500 hover:from-blue-500 hover:to-purple-500 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-blue-500/25 flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
                 >
                   {loadingState ? (
                     <>
@@ -149,7 +149,7 @@ const Contact = () => {
                 }}
               >
                 <div className="flex items-center gap-4">
-                  <div className="p-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl">
+                  <div className="p-3 bg-gradient-to-r bg-blue-500 rounded-xl">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>

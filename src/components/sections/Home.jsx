@@ -79,7 +79,7 @@ const Home = ({loadState}) => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button 
                 onClick={() => scrollToSection('Projects')}
-                className=" justify-center relative overflow-hidden group px-6 py-3  bg-black text-white dark:bg-gradient-to-r dark:from-blue-600 dark:to-purple-600 dark:text-white rounded-lg font-semibold transition-all duration-300 hover:shadow-lg dark:hover:shadow-blue-500/30 flex items-center gap-2"
+                className=" justify-center relative overflow-hidden group px-6 py-3  bg-black text-white dark:bg-gradient-to-r dark:bg-blue-500 dark:text-white rounded-lg font-semibold transition-all duration-300 hover:shadow-lg dark:hover:shadow-blue-500/30 flex items-center gap-2"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <Sparkles size={20} className="group-hover:animate-pulse" />

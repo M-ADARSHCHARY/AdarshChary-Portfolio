@@ -24,7 +24,7 @@ const Projects = () => {
   }
 
   return (
-    <section id="Projects" className="min-h-screen flex items-center justify-center py-20 px-4 bg-transparent relative overflow-hidden">
+    <section id="Projects" className="min-h-[100svh] py-6 lg:min-h-screen flex items-center justify-center lg:py-16 px-4 bg-transparent relative overflow-hidden">
       {/* Background Decoration */}
       
 

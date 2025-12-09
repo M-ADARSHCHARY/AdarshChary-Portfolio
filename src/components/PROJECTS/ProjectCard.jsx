@@ -6,7 +6,7 @@ const ProjectCard = ({project}) => (
       {/* Content Section */}
       <div className="space-y-6 order-2 lg:order-1">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-purple-500 rounded-xl flex items-center justify-center flex-shrink-0">
+          <div className="w-12 h-12 bg-gradient-to-r bg-blue-500 rounded-xl flex items-center justify-center flex-shrink-0">
             <Code size={24} className="text-white" />
           </div>
           <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">{project?.title}</h3>
