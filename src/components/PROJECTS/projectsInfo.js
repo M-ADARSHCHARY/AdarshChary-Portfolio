@@ -14,18 +14,19 @@ const projectsInfo =  [
         techStack:["React","Tailwind CSS", "Node.js", "Express.js", "MySql", "Chart.js", "JWT"],
         liveDemo:"",
         githubRepo:"https://github.com/M-ADARSHCHARY/WorkoutTracker",
-        category: "MERN Stack Application",
+        category: "Full Stack Application",
         imageUrl:"/images/workoutTracker.png"
    },
    {
-      title:"RakthSetu",
-      description:"A platform connecting blood donors with those in need, facilitating quick and efficient blood donation requests. Built with React and Node.js, it ensures secure user authentication and real-time updates.",
-      techStack:["React", "Redux", "Node.js", "Express.js", "MongoDB", "Socket.io", "JWT"],
-      liveDemo:"",
-      githubRepo:"https://github.com/M-ADARSHCHARY/UberForBlood",
-      category: "Team Project",
-      imageUrl:"/images/rakthsetu.jpg"
+      title: "Personal Portfolio Website",
+      description:"A responsive portfolio website built to showcase my projects, skills, and experience. Includes interactive UI sections, project highlights, and smooth navigation using React and Tailwind CSS.",
+      techStack: ["React", "Tailwind CSS"],
+      liveDemo: "https://adarsh-chary-portfolio.vercel.app",
+      githubRepo: "https://github.com/M-ADARSHCHARY/AdarshChary-Portfolio",
+      category: "Personal Project",
+      imageUrl: "/images/portfolio.png"
    }
+
 ]
 
 export default projectsInfo;
