@@ -13,7 +13,15 @@ const ProjectCard = ({project}) => (
         </div>
         
         <p className="text-slate-300 leading-relaxed text-sm md:text-base">
-          {project?.description}
+          {project?.description?.map((point, index) => (
+               <span
+      key={index}
+      className="flex items-start gap-2 mb-2"
+    >
+      <span className="text-blue-400">•</span>
+      <span>{point}</span>
+    </span>
+          ))}
         </p>
         
         <div className="flex flex-wrap gap-2">
